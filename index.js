@@ -52,6 +52,14 @@ class Person {
     this.stomach.length <10 ? this.stomach.push(someFood) : `${this.name} is full!`
   }
 
+  poop(){
+    this.stomach = []
+  }
+
+  toString(){
+    return `${this.name} , ${this.age}`
+  }
+
 }
 
 /*
